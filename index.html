@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #000;
+      padding: 15px 30px;
+      color: #f0f0f0;
+      font-size: 1rem;
+    }
+  
+    .navbar img {
+      height: 50px;
+    }
+  
+    .navbar a {
+      color: gold;
+      font-weight: 600;
+      text-decoration: none;
+      padding: 5px 10px;
+      transition: color 0.3s;
+    }
+  
+    .navbar a:hover {
+      color: #38bdf8;
+    }
+  .navbar h{
+    color:gold
+  }
+    .navbar p {
+      font-style: italic;
+      color:gold
+    }
+  </style>
+  
+</head>
+<body>
+
+  <nav class="navbar">
+    <!-- Left: Logo -->
+    <div class="logo">
+      <img src="cp.jpg" alt="Logo">
+    </div>
+
+    <!-- Center: Cycle+ Title -->
+    <div class="center-title">
+      <H>CYCLE PLUS</H>
+      <P>Pedal your way to future...</P>
+    </div>
+
+    <!-- Right: Tagline -->
+    <div class="contact">
+      <a href="#contact">CONTACT</a>
+    </div>
+  </nav>
+
+  <form>
+
+    <h3>Personal Information</h3><br>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="contact">Contact Number:</label><br>
+    <input type="tel" id="contact" name="contact" required><br><br>
+
+    <label for="email">Email Address:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <h3>Cycle Details</h3><br>
+    <label for="type">Type of Cycle:</label><br>
+    <select id="type" name="type" required>
+      <option value="road">Road Bike</option>
+      <option value="mountain">Mountain Bike</option>
+      <option value="hybrid">Hybrid</option>
+      <option value="electric">Electric</option>
+      <option value="kids">Kids</option>
+    </select><br><br>
+
+    <label for="brand">Brand/Model:</label><br>
+    <input type="text" id="brand" name="brand" required><br><br>
+
+    <h3>Service Required</h3><br>
+    <input type="checkbox" id="repair" name="service" value="repair">
+    <label for="repair">Repair</label><br>
+
+    <input type="checkbox" id="tuneup" name="service" value="tuneup">
+    <label for="tuneup">Tune Up</label><br>
+
+    <input type="checkbox" id="fullservice" name="service" value="fullservice">
+    <label for="fullservice">Full Service</label><br>
+
+    <input type="checkbox" id="purchase" name="service" value="purchase">
+    <label for="purchase">Purchase Inquiry</label><br>
+
+    <input type="checkbox" id="accessory" name="service" value="accessory">
+    <label for="accessory">Accessory Installation</label><br><br>
+
+    <h3>Appointment Details</h3><br>
+    <label for="date">Date:</label><br>
+    <input type="date" id="date" name="date" required><br><br>
+
+    <label for="time">Preferred Time Slot:</label><br>
+    <select id="time" name="time" required>
+      <option value="morning">Morning</option>
+      <option value="afternoon">Afternoon</option>
+      <option value="evening">Evening</option>
+    </select><br><br>
+
+    <input type="checkbox" id="consent" name="consent" required>
+    <label for="consent">I consent to providing my information for appointment scheduling.</label><br><br>
+
+    <input type="submit" value="Submit">
+
+  </form>
+
+  <footer style="background-color: black; color: #fff; padding: 20px 0; text-align: center;">
+    <div style="max-width: 800px; margin: auto;">
+      <h3>Contact Us</h3>
+      <p>Email: <a href="mailto:zaranashah71@gmail.com" style="color:  rgb(27, 109, 168);">zaranashah71@gmail.com</a></p>
+      <p>Phone: <a href="tel:9500054789" style="color:  rgb(27, 109, 168);">9500054789</a></p>
+      <p>
+        Instagram: 
+        <a href="https://www.instagram.com/cycleplus_chennai?igsh=aHNycXJicTdleWo5" target="_blank" style="color:  rgb(27, 109, 168);">
+          @cycleplus_chennai
+        </a>
+      </p>
+    </div>
+  </footer>
+  
+
+</body>
+</html>
